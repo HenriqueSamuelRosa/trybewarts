@@ -2,14 +2,42 @@
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: white;
 }
 
 .header {
+  height: 70px;
   background-color: rgb(50, 167, 145);
   display: flex;
+  border: 2px solid red;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .trybewarts-header-logo {
   background-color: rgb(50, 167, 145);
+  width: 60px;
 }
+
+form {
+  border: 1px solid blue;
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+
+form input {
+  width: 40%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 07px;
+  border-radius: 5px;
+}
+
+/* cores do harry potter
+#1a472a,#2a623d,#5d5d5d,#aaaaaa,#000000 */
