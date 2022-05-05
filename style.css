@@ -1,15 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background-color: white;
-} 
-
-.header {
-    background-color: rgb(50, 167, 145);
-    display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: white;
 }
 
-.trybewarts-header-logo{
-    background-color:rgb(50, 167, 145) ;
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+}
+
+.trybewarts-header-logo {
+  background-color: rgb(50, 167, 145);
 }
