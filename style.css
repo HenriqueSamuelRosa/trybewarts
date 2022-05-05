@@ -3,13 +3,13 @@
     padding: 0;
     border: 0;
     background-color: white;
-} 
+}
 
 .header {
     background-color: rgb(50, 167, 145);
     display: flex;
 }
 
-.trybewarts-header-logo{
-    background-color:rgb(50, 167, 145) ;
+.trybewarts-header-logo {
+    background-color: rgb(50, 167, 145);
 }
