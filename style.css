@@ -38,5 +38,15 @@ form button {
   border-radius: 5px;
 }
 
+main {
+  display: flex;
+}
+
+main form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
 /* cores do harry potter
 #1a472a,#2a623d,#5d5d5d,#aaaaaa,#000000 */
