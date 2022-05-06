@@ -17,8 +17,7 @@
   width: 60px;
 }
 
-form {
-  border: 1px solid blue;
+header form {
   margin: 15px;
   padding: 10px;
   display: flex;
@@ -43,9 +42,14 @@ main {
 }
 
 main form {
+  border: 1px solid blue;
   display: flex;
   width: 675px;
   flex-direction: column;
+}
+
+main img {
+  height: 500px;
 }
 
 /* cores do harry potter
