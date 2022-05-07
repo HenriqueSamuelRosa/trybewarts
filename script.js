@@ -1,7 +1,6 @@
 const submitButton = document.getElementById('entrar');
 
-function logar(event) {
-  event.preventDefault();
+function logar() {
   const textEmail = document.getElementById('inputEmail').value;
   const textPassword = document.getElementById('inputPass').value;
   if (textEmail === 'tryber@teste.com' && textPassword === '123456') {

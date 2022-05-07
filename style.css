@@ -25,7 +25,6 @@ header form {
   justify-content: space-between;
 }
 
-
 form input {
   width: 40%;
   padding: 8px;
@@ -50,6 +49,12 @@ main form {
 
 main img {
   height: 500px;
+}
+
+#family {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
 }
 
 /* cores do harry potter
