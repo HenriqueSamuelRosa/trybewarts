@@ -1,20 +1,164 @@
 * {
-
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background-color: white;
-
+  margin: 0;
+  padding: 0;
+  border: 0;
 
 }
 
 .header {
+  height: 70px;
   background-color: rgb(50, 167, 145);
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .trybewarts-header-logo {
+  background-color: rgb(50, 167, 145);
+  width: 60px;
+}
 
-    background-color: rgb(50, 167, 145);
+header form {
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+
+form input {
+  width: 40%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 07px;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  background-image: url('http://127.0.0.1:5500/images/shpphft_sdws.1280.webp');
+}
+
+#evaluation-form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-block {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.second-block {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.second-block label {
+  font-size: x-large;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+#house {
+  width: 34%;
+  margin-left: -40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: transparent;
+  font-size: large;
+  color: white;
+  background-color: gray;
+}
+
+.first-block input {
+  background: transparent;
+  border: 2px solid black;
+}
+
+.second-block input {
+  background: transparent;
+  border: 2px solid black;
+}
+
+main form {
+  opacity: 0.7;
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+main img {
+  height: 500px;
+}
+
+#family {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  font-size: medium;
+  text-shadow: 2px 2px khaki;
+  color: black;
+  font-family: Mac;
+}
+
+/*#frontend #backend #fullStack {
+  font-size: large;
+  text-shadow: 2px 2px khaki;
+  color: black;
+}*/
+
+#label-family {
+  font-size: x-large;
+  padding: 2px;
+}
+
+.wantLearn {
+  text-shadow: 2px 2px khaki;
+  background: transparent;
+  font-size: 18px;
+}
+
+#label-rate {
+  text-shadow: 2px 2px khaki;
+  background: transparent ;
+  color:black;
+}
+
+.textarea {
+  text-shadow: 2px 2px khaki;
+  background: transparent ;
+  color:black;
+  font-size:large;
+}
+#label-infos {
+  text-shadow: 2px 2px khaki;
+  background: transparent ;
+  color:black;
+  font-size:large;
+}
+#submit-btn {
+  padding: 10px;
+  background: transparent;
+  border: 2px solid black;
+  color: whitesmoke;
+  justify-content: space-around;
+  background-color: grey;
 
 }
+/*#textearea {
+  background: transparent;
+}*/
+/* cores do harry potter
+#1a472a,#2a623d,#5d5d5d,#aaaaaa,#000000 */
