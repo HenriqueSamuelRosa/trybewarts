@@ -92,6 +92,7 @@ main {
 }
 
 main form {
+  color: white;
   opacity: 0.7;
   border: 1px solid blue;
   display: flex;
