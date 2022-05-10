@@ -24,18 +24,21 @@
 
     <main>
         <form action="" id="evaluation-form">
-            <section class="first-block">
-                <input type="text" name="" id="input-name" placeholder="Nome">
-                <input type="text" name="" id="input-lastname" placeholder="Sobrenome">
-            </section>
-            <section class="second-block">
-                <input type="email" name="" id="input-email" placeholder="Email">
-                <select name="house" id="house">
-                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
-                </select>
+            <section id="evaluation-form-inputs">
+                <div class="first-block">
+                    <input type="text" name="" id="input-name" placeholder="Nome">
+                    <input type="text" name="" id="input-lastname" placeholder="Sobrenome">
+                </div>
+                <div class="second-block">
+                    <input type="email" name="" id="input-email" placeholder="Email">
+                    <label for="house">Casa:</label>
+                    <select name="house" id="house">
+                        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                        <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                        <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                    </select>
+                </div>
             </section>
 
             <section id="family">
@@ -91,8 +94,8 @@
             </section>
 
             <section>
-            <input type="checkbox" id="agreement">
-            <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+                <input type="checkbox" id="agreement">
+                <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
             </section>
 
             <section>

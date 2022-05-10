@@ -25,6 +25,11 @@ header form {
   justify-content: space-between;
 }
 
+#trybewarts-header-title {
+  color: white;
+}
+
+
 form input {
   width: 40%;
   padding: 8px;
@@ -38,9 +43,56 @@ form button {
 
 main {
   display: flex;
+  background-image: url('images/shpphft_sdws.1280.webp');
+}
+
+#evaluation-form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-block {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.second-block {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.second-block label {
+  font-size: x-large;
+  font-weight: 700;
+  color: white;
+}
+
+#house {
+  width: 34%;
+  margin-left: -40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: transparent;
+  font-size: large;
+  color: white;
+  background-color: grey;
+}
+
+.first-block input {
+  background: transparent;
+  border: 2px solid black;
+}
+
+.second-block input {
+  background: transparent;
+  border: 2px solid black;
 }
 
 main form {
+  opacity: 0.7;
   border: 1px solid blue;
   display: flex;
   width: 675px;
@@ -52,7 +104,6 @@ main img {
 }
 
 #family {
-  background-color: red;
   display: flex;
   flex-direction: column;
 }
