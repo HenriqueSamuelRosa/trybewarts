@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+
 }
 
 .header {
@@ -43,7 +44,7 @@ form button {
 
 main {
   display: flex;
-  background-image: url('images/shpphft_sdws.1280.webp');
+  background-image: url('http://127.0.0.1:5500/images/shpphft_sdws.1280.webp');
 }
 
 #evaluation-form-inputs {
@@ -67,7 +68,7 @@ main {
 .second-block label {
   font-size: x-large;
   font-weight: 700;
-  color: white;
+  color: whitesmoke;
 }
 
 #house {
@@ -78,7 +79,7 @@ main {
   background: transparent;
   font-size: large;
   color: white;
-  background-color: grey;
+  background-color: gray;
 }
 
 .first-block input {
@@ -94,7 +95,6 @@ main {
 main form {
   color: white;
   opacity: 0.7;
-  border: 1px solid blue;
   display: flex;
   width: 675px;
   flex-direction: column;
@@ -107,7 +107,63 @@ main img {
 #family {
   display: flex;
   flex-direction: column;
+  background: transparent;
+  font-size: medium;
+  text-shadow: 2px 2px khaki;
+  color: black;
+  font-family: Macondo, cursive;
 }
+
+/* #frontend #backend #fullStack {
+  font-size: large;
+  text-shadow: 2px 2px khaki;
+  color: black;
+} */
+
+#label-family {
+  font-size: x-large;
+  padding: 2px;
+}
+
+.wantLearn {
+  text-shadow: 2px 2px khaki;
+  background: transparent;
+  font-size: 18px;
+}
+
+#label-rate {
+  text-shadow: 2px 2px khaki;
+  background: transparent;
+  color:black;
+}
+
+.textarea {
+  text-shadow: 2px 2px khaki;
+  background: transparent;
+  color: black;
+  font-size: large;
+}
+
+#label-infos {
+  text-shadow: 2px 2px khaki;
+  background: transparent;
+  color: black;
+  font-size: large;
+}
+
+#submit-btn {
+  padding: 10px;
+  background: transparent;
+  border: 2px solid black;
+  color: whitesmoke;
+  justify-content: space-around;
+  background-color: grey;
+
+}
+
+/* #textearea {
+  background: transparent;
+} */
 
 /* cores do harry potter
 #1a472a,#2a623d,#5d5d5d,#aaaaaa,#000000 */
