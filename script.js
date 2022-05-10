@@ -11,3 +11,16 @@ function logar() {
 }
 
 submitButton.addEventListener('click', logar);
+
+const check = document.getElementById('agreement');
+const submitBtn = document.querySelector('#submit-btn');
+
+function changeSubmit() {
+  if (check.checked === true) {
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.disabled = true;
+  }
+}
+
+check.addEventListener('click', changeSubmit);
