@@ -5,6 +5,10 @@
 
 }
 
+body {
+  font-family: macondo, cursive;
+}
+
 .header {
   height: 70px;
   background-color: rgb(50, 167, 145);
@@ -30,6 +34,11 @@ header form {
   color: white;
 }
 
+#entrar:hover {
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
 form input {
   width: 40%;
@@ -63,6 +72,7 @@ main {
   padding: 5px;
   display: flex;
   justify-content: space-around;
+  text-shadow: 1px 1px black;
 }
 
 .second-block label {
@@ -107,11 +117,16 @@ main img {
 #family {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   background: transparent;
   font-size: medium;
-  text-shadow: 2px 2px khaki;
+  font-weight: 900;
+  text-shadow: 1px 1px khaki;
   color: black;
-  font-family: Macondo, cursive;
+}
+
+.family-inputs input {
+  margin-right: -25px;
 }
 
 /* #frontend #backend #fullStack {
@@ -125,16 +140,50 @@ main img {
   padding: 2px;
 }
 
+.form-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
 .wantLearn {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
   text-shadow: 2px 2px khaki;
   background: transparent;
-  font-size: 18px;
+  font-size: 19px;
+  color: black;
+  text-align: center;
+}
+
+.learn-content {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.wantLearn-block {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.wantLearn-block div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 30%;
 }
 
 #label-rate {
   text-shadow: 2px 2px khaki;
   background: transparent;
   color: black;
+  font-size: 19px;
 }
 
 .textarea {
@@ -142,6 +191,7 @@ main img {
   background: transparent;
   color: black;
   font-size: large;
+  padding: 10px;
 }
 
 #label-infos {
@@ -149,16 +199,17 @@ main img {
   background: transparent;
   color: black;
   font-size: large;
+  margin-left: -120px;
 }
 
 #submit-btn {
-  padding: 10px;
   background: transparent;
   border: 2px solid black;
   color: whitesmoke;
-  justify-content: space-around;
   background-color: grey;
-
+  padding: 5px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 /* #textearea {

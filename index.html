@@ -44,38 +44,69 @@
                 </div>
             </section>
 
-            <section id="family">
-                <p id="label-family">Qual sua família?</p>
-                <label for="frontend">Família Frontend</label>
-                <input type="radio" name="family" value="Frontend" id="frontend">
+            <section class="form-block">
+                <section id="family">
+                    <p id="label-family">Qual sua família?</p>
+                    <div class="family-inputs">
+                        <input type="radio" name="family" value="Frontend" id="frontend">
+                        <label for="frontend">Família Frontend</label>
+                    </div>
 
-                <label for="backend">Família Backend</label>
-                <input type="radio" name="family" value="Backend" id="backend">
+                    <div class="family-inputs">
+                        <input type="radio" name="family" value="Backend" id="backend">
+                        <label for="backend">Família Backend</label>
+                    </div>
 
-                <label for="fullStack">Família FullStack</label>
-                <input type="radio" name="family" value="FullStack" id="fullStack">
-            </section>
+                    <div class="family-inputs">
+                        <input type="radio" name="family" value="FullStack" id="fullStack">
+                        <label for="fullStack">Família FullStack</label>
+                    </div>
+                </section>
 
-            <section class="wantLearn">
-                <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
-                <input type="checkbox" name="HoFs" value="HoFs" id="element-hofs">
-                <label for="element-hofs">HoFs</label>
+                <section class="wantLearn">
+                    <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
 
-                <input type="checkbox" name="Jest" value="Jest" id="element-jest">
-                <label for="element-jest">Jest</label>
+                    <div class="learn-content">
+                        <div class="wantLearn-block">
+                            <div>
+                                <input class="ckeck-inputs" type="checkbox" name="HoFs" value="HoFs" id="element-hofs">
+                                <label for="element-hofs">HoFs</label>
+                            </div>
 
-                <input type="checkbox" name="Promises" value="Promises" id="element-promises">
-                <label for="element-promises">Promises</label>
+                            <div>
+                                <input class="ckeck-inputs" type="checkbox" name="Jest" value="Jest" id="element-jest">
+                                <label for="element-jest">Jest</label>
+                            </div>
+                        </div>
 
-                <input type="checkbox" name="React" value="React" id="element-react">
-                <label for="element-react">React</label>
+                        <div class="wantLearn-block">
+                            <div>
+                                <input class="ckeck-inputs" type="checkbox" name="Promises" value="Promises"
+                                    id="element-promises">
+                                <label for="element-promises">Promises</label>
+                            </div>
 
-                <input type="checkbox" name="SQL" value="SQL" id="element-sql">
-                <label for="element-sql">SQL</label>
-                <div>
-                    <input type="checkbox" name="Python" value="Python" id="element-python">
-                    <label for="element-python">Python</label>
-                </div>
+                            <div>
+                                <input class="ckeck-inputs" type="checkbox" name="React" value="React"
+                                    id="element-react">
+                                <label for="element-react">React</label>
+                            </div>
+                        </div>
+
+                        <div class="wantLearn-block">
+                            <div>
+                                <input class="ckeck-inputs" type="checkbox" name="SQL" value="SQL" id="element-sql">
+                                <label for="element-sql">SQL</label>
+                            </div>
+
+                            <div>
+                                <input class="ckeck-inputs" type="checkbox" name="Python" value="Python"
+                                    id="element-python">
+                                <label for="element-python">Python</label>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </section>
 
             <section>
@@ -98,7 +129,7 @@
 
             <section>
                 <input type="checkbox" id="agreement">
-                <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+                <label id="label-infos" for="agreement"><label>Você concorda com o uso das informações acima?</label>
             </section>
 
             <section>
@@ -108,7 +139,7 @@
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="forms-logo">
 
         <footer>
-            <p>Direitos reservados à Trybewarts©</p>
+            <p><strong>Direitos reservados à Trybewarts©</strong></p>
         </footer>
 
         <script type="text/javascript" src="script.js"></script>
