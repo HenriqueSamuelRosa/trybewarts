@@ -37,7 +37,7 @@ header form {
 #entrar:hover {
   cursor: pointer;
   transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 form input {
@@ -54,12 +54,14 @@ form button {
 main {
   display: flex;
   background-image: url('http://127.0.0.1:5500/images/shpphft_sdws.1280.webp');
+  background-size: cover;
 }
 
 #evaluation-form-inputs {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 25px;
 }
 
 .first-block {
@@ -125,15 +127,17 @@ main img {
   color: black;
 }
 
+.wantLearn-block div {
+  padding: 15px;
+}
+
+#family div {
+  margin: 5px;
+}
+
 .family-inputs input {
   margin-right: -25px;
 }
-
-/* #frontend #backend #fullStack {
-  font-size: large;
-  text-shadow: 2px 2px khaki;
-  color: black;
-} */
 
 #label-family {
   font-size: x-large;
@@ -144,6 +148,7 @@ main img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 25px;
 }
 
 
@@ -151,6 +156,7 @@ main img {
   display: flex;
   flex-direction: column;
   justify-content: start;
+  width: 70%;
   text-shadow: 2px 2px khaki;
   background: transparent;
   font-size: 19px;
@@ -159,39 +165,51 @@ main img {
 }
 
 .learn-content {
-  border: 1px solid blue;
   display: flex;
   justify-content: space-evenly;
-  padding: 30px;
 }
 
 .wantLearn-block {
   display: flex;
-  justify-content: start;
   flex-direction: column;
-  align-items: flex-start;
 }
 
-.wantLearn-block div {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  width: 30%;
-}
 
-#label-rate {
+.valuesNumbers {
   text-shadow: 2px 2px khaki;
   background: transparent;
   color: black;
   font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#label-rate {
+  margin: 20px;
+  width: 100%;
+}
+
+#textaria {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
 }
 
 .textarea {
   text-shadow: 2px 2px khaki;
-  background: transparent;
   color: black;
   font-size: large;
   padding: 10px;
+}
+
+textarea {
+  padding: 15px;
+  color: white;
+  font-size: large;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 #label-infos {
@@ -202,21 +220,21 @@ main img {
   margin-left: -120px;
 }
 
-#submit-btn {
-  background: transparent;
-  border: 2px solid black;
-  color: whitesmoke;
-  background-color: grey;
-  padding: 5px;
-  margin-left: 10px;
-  cursor: pointer;
+#btn-submit {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
 }
 
-/* pull */
+#submit-btn:hover {
+  border: 2px solid black;
+  color: black;
+  font-size: large;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
 
-/* #textearea {
-  background: transparent;
-} */
-
-/* cores do harry potter
-#1a472a,#2a623d,#5d5d5d,#aaaaaa,#000000 */
+footer {
+  margin: 25px 10px;
+}
