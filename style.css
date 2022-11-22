@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   border: 0;
-
 }
 
 body {
   font-family: macondo, cursive;
+  text-shadow: 2px 2px black;
+  font-size: large;
+  font-weight: 800;
+  color: white;
 }
 
 .header {
@@ -15,6 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: x-large;
 }
 
 .trybewarts-header-logo {
@@ -30,17 +34,7 @@ header form {
   justify-content: space-between;
 }
 
-#trybewarts-header-title {
-  color: white;
-}
-
-#entrar:hover {
-  cursor: pointer;
-  transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-form input {
+header form input {
   width: 40%;
   padding: 8px;
   border-radius: 5px;
@@ -51,62 +45,20 @@ form button {
   border-radius: 5px;
 }
 
+#entrar:hover {
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 main {
-  display: flex;
   background-image: url('http://127.0.0.1:5500/images/shpphft_sdws.1280.webp');
   background-size: cover;
-}
-
-#evaluation-form-inputs {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 25px;
-}
-
-.first-block {
   display: flex;
   justify-content: space-around;
-  padding: 5px;
-}
-
-.second-block {
-  padding: 5px;
-  display: flex;
-  justify-content: space-around;
-  text-shadow: 1px 1px black;
-}
-
-.second-block label {
-  font-size: x-large;
-  font-weight: 700;
-  color: whitesmoke;
-}
-
-#house {
-  width: 34%;
-  margin-left: -40px;
-  border: 2px solid black;
-  border-radius: 10px;
-  background: transparent;
-  font-size: large;
-  color: white;
-  background-color: gray;
-}
-
-.first-block input {
-  background: transparent;
-  border: 2px solid black;
-}
-
-.second-block input {
-  background: transparent;
-  border: 2px solid black;
 }
 
 main form {
-  color: white;
-  opacity: 0.7;
   display: flex;
   width: 675px;
   flex-direction: column;
@@ -116,108 +68,107 @@ main img {
   height: 500px;
 }
 
-#family {
+#evaluation-form-inputs {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#evaluation-form-inputs input {
+  width: 45%;
+  padding: 8px;
+  border-radius: 5px;
   background: transparent;
-  font-size: medium;
-  font-weight: 900;
-  text-shadow: 1px 1px khaki;
-  color: black;
+  border: 2px solid black;
 }
 
-.wantLearn-block div {
-  padding: 15px;
+#evaluation-form-inputs div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-#family div {
-  margin: 5px;
-}
-
-.family-inputs input {
-  margin-right: -25px;
-}
-
-#label-family {
+.label-house {
+  width: 47%;
+  display: flex;
+  justify-content: flex-start;
   font-size: x-large;
-  padding: 2px;
+  font-weight: 700;
+}
+
+#house {
+  width: 90%;
+  margin-left: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: transparent;
+  font-size: large;
+  color: white;
+  background-color: gray;
 }
 
 .form-block {
+  margin-top: 15px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 25px;
+  font-size: large;
+  margin-bottom: 15px;
 }
 
+.form-block p {
+  padding: 10px;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
+.family-inputs {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
 
 .wantLearn {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+}
+
+.three-options {
   width: 70%;
-  text-shadow: 2px 2px khaki;
-  background: transparent;
-  font-size: 19px;
-  color: black;
-  text-align: center;
-}
-
-.learn-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
-.wantLearn-block {
+.three-options label {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.section-rate {
+  margin-top: 25px;
+  margin-bottom: 25px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
-
-.valuesNumbers {
-  text-shadow: 2px 2px khaki;
-  background: transparent;
-  color: black;
-  font-size: 19px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#label-rate {
-  margin: 20px;
-  width: 100%;
-}
-
-#textaria {
+.text {
   display: flex;
   flex-direction: column;
-  margin: 25px;
-}
-
-.textarea {
-  text-shadow: 2px 2px khaki;
-  color: black;
-  font-size: large;
-  padding: 10px;
 }
 
 textarea {
-  padding: 15px;
-  color: white;
-  font-size: large;
-  background: transparent;
+  padding: 5px;
+  color: black;
+  font-size: x-large;
+  font-weight: 800;
+  opacity: 0.3;
   border: 2px solid black;
   border-radius: 5px;
-}
-
-#label-infos {
-  text-shadow: 2px 2px khaki;
-  background: transparent;
-  color: black;
-  font-size: large;
-  margin-left: -120px;
+  margin-bottom: 15px;
 }
 
 #btn-submit {
@@ -233,8 +184,4 @@ textarea {
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: auto;
-}
-
-footer {
-  margin: 25px 10px;
 }
