@@ -5,6 +5,8 @@
 }
 
 body {
+  background-image: url('http://127.0.0.1:5500/images/shpphft_sdws.1280.webp');
+  background-size: cover;
   font-family: macondo, cursive;
   text-shadow: 2px 2px black;
   font-size: large;
@@ -52,8 +54,6 @@ form button {
 }
 
 main {
-  background-image: url('http://127.0.0.1:5500/images/shpphft_sdws.1280.webp');
-  background-size: cover;
   display: flex;
   justify-content: space-around;
 }
@@ -82,6 +82,9 @@ main img {
   border-radius: 5px;
   background: transparent;
   border: 2px solid black;
+  color: white;
+  font-size: medium;
+  font-weight: 800;
 }
 
 #evaluation-form-inputs div {
@@ -184,4 +187,18 @@ textarea {
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: auto;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#submited-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
