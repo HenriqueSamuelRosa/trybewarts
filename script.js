@@ -24,3 +24,15 @@ function changeSubmit() {
 }
 
 check.addEventListener('click', changeSubmit);
+
+const textArea = document.getElementById('textarea');
+
+const maxCharacter = 500;
+
+function countCharacter() {
+  const { length } = textArea.value;
+  document.getElementById('counter').innerHTML = maxCharacter - length;
+}
+
+textArea.addEventListener('keydown', countCharacter);
+textArea.addEventListener('keyup', countCharacter);
